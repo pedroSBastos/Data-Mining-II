@@ -9,7 +9,7 @@ Pedro Bastos
 BIBLIOTECAS USADAS
 *********************************************
 ```
-library("recommenderlab") e pacotes associados
+library("recommenderlab")
 ```
 *********************************************
 
