@@ -1,4 +1,5 @@
-#Data Mining II
+Data Mining II
+----------------------------------------------------------------
 
 Assignment: Recommender Systems 2016
 
@@ -7,7 +8,9 @@ Pedro Bastos
 *********************************************
 BIBLIOTECAS USADAS
 *********************************************
+```
 library("recommenderlab") e pacotes associados
+```
 *********************************************
 
 1. ESTUDO DOS MODELOS DE RECOMENDAÇÃO
