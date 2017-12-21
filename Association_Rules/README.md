@@ -15,12 +15,13 @@ source("pathTo/ar.gplot")
 
 1. ZONES
 *********************************************
-Execute: [Zones](/Final.R)
+Execute: [Zones](Data-Mining-II/Association_Rules/Final.R)
 ******************************************
 
 2. SUB-ZONES
 ******************************************
-Execute: (/GSP.R)
-		 Weka
+Execute: 
+1.[Sub-Zones](Data-Mining-II/Association_Rules/GSP.R)
+2.Weka(GSP)
 ******************************************
 
