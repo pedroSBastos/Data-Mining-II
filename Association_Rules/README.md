@@ -1,7 +1,7 @@
 Data Mining II
 ----------------------------------------------------------------
 
-Assignment: Recommender Systems 2016
+Assignment: Association Rules 2016
 
 Pedro Bastos
 
@@ -9,21 +9,18 @@ Pedro Bastos
 USED LIBRARYS
 *********************************************
 ```
-library("recommenderlab")
+source("pathTo/ar.gplot")
 ```
 *********************************************
 
-1. MODELS OF RECOMMENDATION (STUDY)
+1. ZONES
 *********************************************
-To execute:
-1. Run the code above the first comment “#####1#####”
-2. Run the code between comments “#####1#####”
+Execute: (/Final.R)
 ******************************************
 
-2. RECOMMENDATIONS
+2. SUB-ZONES
 ******************************************
-To execute:
-1. Run the code above the first comment “#####1#####”
-2. Run the code between comments “#####2#####”
+Execute: (/GSP.R)
+		 Weka
 ******************************************
 
