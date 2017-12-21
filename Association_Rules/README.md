@@ -15,7 +15,7 @@ source("pathTo/ar.gplot")
 
 1. ZONES
 *********************************************
-Execute: (/Final.R)
+Execute: [Zones](/Final.R)
 ******************************************
 
 2. SUB-ZONES
