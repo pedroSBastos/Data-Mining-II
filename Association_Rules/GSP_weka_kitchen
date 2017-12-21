@@ -1,0 +1,80 @@
+=== Run information ===
+
+Scheme:       weka.associations.GeneralizedSequentialPatterns -S 0.05 -I 0 -F -1
+Relation:     data_gsp_kitchen-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    417
+Attributes:   2
+              id
+              zona
+=== Associator model (full training set) ===
+
+GeneralizedSequentialPatterns
+=============================
+
+Number of cycles performed: 12
+Total number of frequent sequences: 25
+
+Frequent Sequences Details (filtered):
+
+- 1-sequences
+
+[1] <{Kitchen Accessories 3}> (25)
+[2] <{Kitchen Accessories 10}> (84)
+[3] <{Kitchen Accessories 2}> (39)
+[4] <{Kitchen Accessories 1}> (45)
+
+- 2-sequences
+
+[1] <{Kitchen Accessories 3}{Kitchen Accessories 1}> (10)
+[2] <{Kitchen Accessories 10}{Kitchen Accessories 10}> (30)
+[3] <{Kitchen Accessories 2}{Kitchen Accessories 10}> (10)
+[4] <{Kitchen Accessories 2}{Kitchen Accessories 2}> (9)
+[5] <{Kitchen Accessories 2}{Kitchen Accessories 1}> (10)
+[6] <{Kitchen Accessories 1}{Kitchen Accessories 10}> (10)
+[7] <{Kitchen Accessories 1}{Kitchen Accessories 2}> (9)
+[8] <{Kitchen Accessories 1}{Kitchen Accessories 1}> (7)
+
+- 3-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (22)
+[2] <{Kitchen Accessories 2}{Kitchen Accessories 10}{Kitchen Accessories 10}> (7)
+[3] <{Kitchen Accessories 1}{Kitchen Accessories 10}{Kitchen Accessories 10}> (8)
+
+- 4-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (16)
+[2] <{Kitchen Accessories 1}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (7)
+
+- 5-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (15)
+
+- 6-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (15)
+
+- 7-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (14)
+
+- 8-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (11)
+
+- 9-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (8)
+
+- 10-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (7)
+
+- 11-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (7)
+
+- 12-sequences
+
+[1] <{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}{Kitchen Accessories 10}> (7)
+
+

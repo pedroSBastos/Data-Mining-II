@@ -1,0 +1,148 @@
+=== Run information ===
+
+Scheme:       weka.associations.GeneralizedSequentialPatterns -S 0.05 -I 0 -F -1
+Relation:     data_gsp_caracole-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    6234
+Attributes:   2
+              id
+              zona
+=== Associator model (full training set) ===
+
+GeneralizedSequentialPatterns
+=============================
+
+Number of cycles performed: 3
+Total number of frequent sequences: 120
+
+Frequent Sequences Details (filtered):
+
+- 1-sequences
+
+[1] <{Caracole 8}> (251)
+[2] <{Caracole 2}> (270)
+[3] <{Caracole 6}> (265)
+[4] <{Caracole 3}> (283)
+[5] <{Caracole 1}> (342)
+[6] <{Caracole 7}> (240)
+[7] <{Caracole 4}> (283)
+[8] <{Caracole 11}> (290)
+[9] <{Caracole 5}> (340)
+[10] <{Caracole 9}> (251)
+[11] <{Caracole 12}> (243)
+[12] <{Caracole 10}> (224)
+
+- 2-sequences
+
+[1] <{Caracole 8}{Caracole 8}> (71)
+[2] <{Caracole 8}{Caracole 2}> (64)
+[3] <{Caracole 8}{Caracole 6}> (70)
+[4] <{Caracole 8}{Caracole 1}> (81)
+[5] <{Caracole 8}{Caracole 7}> (68)
+[6] <{Caracole 8}{Caracole 4}> (84)
+[7] <{Caracole 8}{Caracole 11}> (89)
+[8] <{Caracole 8}{Caracole 5}> (79)
+[9] <{Caracole 8}{Caracole 9}> (76)
+[10] <{Caracole 8}{Caracole 12}> (94)
+[11] <{Caracole 8}{Caracole 10}> (82)
+[12] <{Caracole 2}{Caracole 8}> (75)
+[13] <{Caracole 2}{Caracole 2}> (82)
+[14] <{Caracole 2}{Caracole 3}> (62)
+[15] <{Caracole 2}{Caracole 1}> (82)
+[16] <{Caracole 2}{Caracole 4}> (81)
+[17] <{Caracole 2}{Caracole 11}> (100)
+[18] <{Caracole 2}{Caracole 5}> (80)
+[19] <{Caracole 2}{Caracole 9}> (71)
+[20] <{Caracole 2}{Caracole 12}> (87)
+[21] <{Caracole 2}{Caracole 10}> (87)
+[22] <{Caracole 6}{Caracole 8}> (67)
+[23] <{Caracole 6}{Caracole 2}> (66)
+[24] <{Caracole 6}{Caracole 6}> (80)
+[25] <{Caracole 6}{Caracole 3}> (67)
+[26] <{Caracole 6}{Caracole 1}> (73)
+[27] <{Caracole 6}{Caracole 7}> (72)
+[28] <{Caracole 6}{Caracole 4}> (79)
+[29] <{Caracole 6}{Caracole 11}> (101)
+[30] <{Caracole 6}{Caracole 5}> (78)
+[31] <{Caracole 6}{Caracole 12}> (89)
+[32] <{Caracole 6}{Caracole 10}> (72)
+[33] <{Caracole 3}{Caracole 3}> (75)
+[34] <{Caracole 3}{Caracole 11}> (91)
+[35] <{Caracole 3}{Caracole 5}> (83)
+[36] <{Caracole 3}{Caracole 9}> (61)
+[37] <{Caracole 3}{Caracole 12}> (86)
+[38] <{Caracole 3}{Caracole 10}> (74)
+[39] <{Caracole 1}{Caracole 8}> (79)
+[40] <{Caracole 1}{Caracole 2}> (75)
+[41] <{Caracole 1}{Caracole 6}> (64)
+[42] <{Caracole 1}{Caracole 1}> (110)
+[43] <{Caracole 1}{Caracole 7}> (67)
+[44] <{Caracole 1}{Caracole 4}> (97)
+[45] <{Caracole 1}{Caracole 11}> (122)
+[46] <{Caracole 1}{Caracole 5}> (99)
+[47] <{Caracole 1}{Caracole 9}> (90)
+[48] <{Caracole 1}{Caracole 12}> (103)
+[49] <{Caracole 1}{Caracole 10}> (104)
+[50] <{Caracole 7}{Caracole 8}> (61)
+[51] <{Caracole 7}{Caracole 1}> (70)
+[52] <{Caracole 7}{Caracole 7}> (66)
+[53] <{Caracole 7}{Caracole 4}> (66)
+[54] <{Caracole 7}{Caracole 11}> (80)
+[55] <{Caracole 7}{Caracole 5}> (71)
+[56] <{Caracole 7}{Caracole 12}> (87)
+[57] <{Caracole 7}{Caracole 10}> (76)
+[58] <{Caracole 4}{Caracole 8}> (68)
+[59] <{Caracole 4}{Caracole 2}> (72)
+[60] <{Caracole 4}{Caracole 6}> (73)
+[61] <{Caracole 4}{Caracole 1}> (88)
+[62] <{Caracole 4}{Caracole 7}> (62)
+[63] <{Caracole 4}{Caracole 4}> (93)
+[64] <{Caracole 4}{Caracole 11}> (115)
+[65] <{Caracole 4}{Caracole 5}> (83)
+[66] <{Caracole 4}{Caracole 9}> (68)
+[67] <{Caracole 4}{Caracole 12}> (109)
+[68] <{Caracole 4}{Caracole 10}> (99)
+[69] <{Caracole 11}{Caracole 11}> (93)
+[70] <{Caracole 11}{Caracole 12}> (73)
+[71] <{Caracole 11}{Caracole 10}> (72)
+[72] <{Caracole 5}{Caracole 8}> (76)
+[73] <{Caracole 5}{Caracole 2}> (75)
+[74] <{Caracole 5}{Caracole 6}> (75)
+[75] <{Caracole 5}{Caracole 3}> (89)
+[76] <{Caracole 5}{Caracole 1}> (106)
+[77] <{Caracole 5}{Caracole 7}> (78)
+[78] <{Caracole 5}{Caracole 4}> (99)
+[79] <{Caracole 5}{Caracole 11}> (112)
+[80] <{Caracole 5}{Caracole 5}> (132)
+[81] <{Caracole 5}{Caracole 9}> (87)
+[82] <{Caracole 5}{Caracole 12}> (113)
+[83] <{Caracole 5}{Caracole 10}> (102)
+[84] <{Caracole 9}{Caracole 8}> (65)
+[85] <{Caracole 9}{Caracole 2}> (74)
+[86] <{Caracole 9}{Caracole 6}> (66)
+[87] <{Caracole 9}{Caracole 1}> (87)
+[88] <{Caracole 9}{Caracole 4}> (87)
+[89] <{Caracole 9}{Caracole 11}> (100)
+[90] <{Caracole 9}{Caracole 5}> (75)
+[91] <{Caracole 9}{Caracole 9}> (75)
+[92] <{Caracole 9}{Caracole 12}> (98)
+[93] <{Caracole 9}{Caracole 10}> (83)
+[94] <{Caracole 12}{Caracole 11}> (72)
+[95] <{Caracole 12}{Caracole 12}> (78)
+[96] <{Caracole 12}{Caracole 10}> (62)
+[97] <{Caracole 10}{Caracole 11}> (66)
+[98] <{Caracole 10}{Caracole 12}> (67)
+
+- 3-sequences
+
+[1] <{Caracole 1}{Caracole 11}{Caracole 11}> (65)
+[2] <{Caracole 4}{Caracole 4}{Caracole 11}> (64)
+[3] <{Caracole 4}{Caracole 4}{Caracole 12}> (65)
+[4] <{Caracole 4}{Caracole 11}{Caracole 11}> (68)
+[5] <{Caracole 4}{Caracole 12}{Caracole 12}> (61)
+[6] <{Caracole 5}{Caracole 4}{Caracole 12}> (64)
+[7] <{Caracole 5}{Caracole 5}{Caracole 11}> (71)
+[8] <{Caracole 5}{Caracole 5}{Caracole 5}> (69)
+[9] <{Caracole 5}{Caracole 5}{Caracole 12}> (71)
+[10] <{Caracole 5}{Caracole 5}{Caracole 10}> (66)
+
+

@@ -1,0 +1,117 @@
+=== Run information ===
+
+Scheme:       weka.associations.GeneralizedSequentialPatterns -S 0.05 -I 0 -F -1
+Relation:     data_gsp_textile-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    1527
+Attributes:   2
+              id
+              zona
+=== Associator model (full training set) ===
+
+GeneralizedSequentialPatterns
+=============================
+
+Number of cycles performed: 11
+Total number of frequent sequences: 65
+
+Frequent Sequences Details (filtered):
+
+- 1-sequences
+
+[1] <{Textile & Bedding 2}> (145)
+[2] <{Textile & Bedding 4}> (202)
+[3] <{Textile & Bedding 1}> (57)
+[4] <{Textile & Bedding 3}> (154)
+
+- 2-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}> (64)
+[2] <{Textile & Bedding 2}{Textile & Bedding 4}> (31)
+[3] <{Textile & Bedding 2}{Textile & Bedding 1}> (32)
+[4] <{Textile & Bedding 2}{Textile & Bedding 3}> (29)
+[5] <{Textile & Bedding 4}{Textile & Bedding 2}> (26)
+[6] <{Textile & Bedding 4}{Textile & Bedding 4}> (59)
+[7] <{Textile & Bedding 4}{Textile & Bedding 3}> (47)
+[8] <{Textile & Bedding 1}{Textile & Bedding 2}> (33)
+[9] <{Textile & Bedding 1}{Textile & Bedding 1}> (25)
+[10] <{Textile & Bedding 3}{Textile & Bedding 2}> (31)
+[11] <{Textile & Bedding 3}{Textile & Bedding 4}> (37)
+[12] <{Textile & Bedding 3}{Textile & Bedding 3}> (42)
+
+- 3-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (49)
+[2] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}> (26)
+[3] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}> (28)
+[4] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}> (21)
+[5] <{Textile & Bedding 2}{Textile & Bedding 3}{Textile & Bedding 2}> (20)
+[6] <{Textile & Bedding 4}{Textile & Bedding 4}{Textile & Bedding 4}> (21)
+[7] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}> (28)
+[8] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 1}> (21)
+[9] <{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 2}> (23)
+[10] <{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 1}> (21)
+[11] <{Textile & Bedding 3}{Textile & Bedding 2}{Textile & Bedding 2}> (21)
+[12] <{Textile & Bedding 3}{Textile & Bedding 3}{Textile & Bedding 3}> (21)
+
+- 4-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (40)
+[2] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}> (22)
+[3] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}> (25)
+[4] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}> (20)
+[5] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}> (25)
+[6] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 2}> (21)
+[7] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 1}> (21)
+[8] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (25)
+[9] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}> (21)
+[10] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}> (20)
+[11] <{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}> (20)
+[12] <{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 2}> (21)
+[13] <{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 1}> (20)
+
+- 5-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (38)
+[2] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}> (20)
+[3] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}> (22)
+[4] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}> (24)
+[5] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 2}> (20)
+[6] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (23)
+[7] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 2}> (20)
+[8] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (22)
+[9] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}> (20)
+[10] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 2}> (20)
+[11] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 1}{Textile & Bedding 1}> (20)
+
+- 6-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (32)
+[2] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}> (20)
+[3] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}> (21)
+[4] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (23)
+[5] <{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (21)
+[6] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (21)
+
+- 7-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (29)
+[2] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (21)
+[3] <{Textile & Bedding 1}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (20)
+
+- 8-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (27)
+
+- 9-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (24)
+
+- 10-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (21)
+
+- 11-sequences
+
+[1] <{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}{Textile & Bedding 2}> (20)
+
+

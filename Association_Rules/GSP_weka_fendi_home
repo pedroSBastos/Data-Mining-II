@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.associations.GeneralizedSequentialPatterns -S 0.05 -I 0 -F -1
+Relation:     data_gsp_fendi_home-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    2933
+Attributes:   2
+              id
+              zona
+=== Associator model (full training set) ===
+
+GeneralizedSequentialPatterns
+=============================
+
+Number of cycles performed: 3
+Total number of frequent sequences: 40
+
+Frequent Sequences Details (filtered):
+
+- 1-sequences
+
+[1] <{Fendi Home 2}> (303)
+[2] <{Fendi Home 1}> (395)
+[3] <{Fendi Home 3}> (463)
+[4] <{Fendi Home 4}> (335)
+[5] <{Fendi Home 5}> (154)
+
+- 2-sequences
+
+[1] <{Fendi Home 2}{Fendi Home 2}> (83)
+[2] <{Fendi Home 2}{Fendi Home 1}> (98)
+[3] <{Fendi Home 2}{Fendi Home 3}> (119)
+[4] <{Fendi Home 2}{Fendi Home 4}> (99)
+[5] <{Fendi Home 1}{Fendi Home 2}> (83)
+[6] <{Fendi Home 1}{Fendi Home 1}> (107)
+[7] <{Fendi Home 1}{Fendi Home 3}> (94)
+[8] <{Fendi Home 1}{Fendi Home 4}> (98)
+[9] <{Fendi Home 3}{Fendi Home 2}> (97)
+[10] <{Fendi Home 3}{Fendi Home 1}> (96)
+[11] <{Fendi Home 3}{Fendi Home 3}> (142)
+[12] <{Fendi Home 3}{Fendi Home 4}> (114)
+[13] <{Fendi Home 4}{Fendi Home 2}> (96)
+[14] <{Fendi Home 4}{Fendi Home 1}> (91)
+[15] <{Fendi Home 4}{Fendi Home 3}> (103)
+[16] <{Fendi Home 4}{Fendi Home 4}> (110)
+[17] <{Fendi Home 4}{Fendi Home 5}> (49)
+[18] <{Fendi Home 5}{Fendi Home 4}> (54)
+[19] <{Fendi Home 5}{Fendi Home 5}> (49)
+
+- 3-sequences
+
+[1] <{Fendi Home 2}{Fendi Home 3}{Fendi Home 3}> (50)
+[2] <{Fendi Home 2}{Fendi Home 3}{Fendi Home 4}> (56)
+[3] <{Fendi Home 2}{Fendi Home 4}{Fendi Home 3}> (49)
+[4] <{Fendi Home 3}{Fendi Home 2}{Fendi Home 3}> (55)
+[5] <{Fendi Home 3}{Fendi Home 2}{Fendi Home 4}> (49)
+[6] <{Fendi Home 3}{Fendi Home 3}{Fendi Home 3}> (61)
+[7] <{Fendi Home 3}{Fendi Home 3}{Fendi Home 4}> (59)
+[8] <{Fendi Home 3}{Fendi Home 4}{Fendi Home 2}> (49)
+[9] <{Fendi Home 3}{Fendi Home 4}{Fendi Home 3}> (54)
+[10] <{Fendi Home 3}{Fendi Home 4}{Fendi Home 4}> (52)
+[11] <{Fendi Home 4}{Fendi Home 2}{Fendi Home 3}> (51)
+[12] <{Fendi Home 4}{Fendi Home 2}{Fendi Home 4}> (53)
+[13] <{Fendi Home 4}{Fendi Home 3}{Fendi Home 3}> (52)
+[14] <{Fendi Home 4}{Fendi Home 3}{Fendi Home 4}> (54)
+[15] <{Fendi Home 4}{Fendi Home 4}{Fendi Home 3}> (59)
+[16] <{Fendi Home 4}{Fendi Home 4}{Fendi Home 4}> (59)
+
+

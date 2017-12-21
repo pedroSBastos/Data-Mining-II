@@ -1,0 +1,57 @@
+=== Run information ===
+
+Scheme:       weka.associations.GeneralizedSequentialPatterns -S 0.05 -I 0 -F -1
+Relation:     data_gsp_van_thield-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    1428
+Attributes:   2
+              id
+              zona
+=== Associator model (full training set) ===
+
+GeneralizedSequentialPatterns
+=============================
+
+Number of cycles performed: 3
+Total number of frequent sequences: 29
+
+Frequent Sequences Details (filtered):
+
+- 1-sequences
+
+[1] <{Van Thiel 4}> (143)
+[2] <{Van Thiel 3}> (190)
+[3] <{Van Thiel 2}> (343)
+[4] <{Van Thiel 1}> (177)
+[5] <{Van Thiel 5}> (105)
+
+- 2-sequences
+
+[1] <{Van Thiel 4}{Van Thiel 3}> (33)
+[2] <{Van Thiel 4}{Van Thiel 2}> (55)
+[3] <{Van Thiel 4}{Van Thiel 1}> (32)
+[4] <{Van Thiel 3}{Van Thiel 4}> (36)
+[5] <{Van Thiel 3}{Van Thiel 3}> (58)
+[6] <{Van Thiel 3}{Van Thiel 2}> (59)
+[7] <{Van Thiel 3}{Van Thiel 1}> (52)
+[8] <{Van Thiel 3}{Van Thiel 5}> (38)
+[9] <{Van Thiel 2}{Van Thiel 4}> (51)
+[10] <{Van Thiel 2}{Van Thiel 3}> (58)
+[11] <{Van Thiel 2}{Van Thiel 2}> (75)
+[12] <{Van Thiel 2}{Van Thiel 1}> (52)
+[13] <{Van Thiel 2}{Van Thiel 5}> (34)
+[14] <{Van Thiel 1}{Van Thiel 4}> (30)
+[15] <{Van Thiel 1}{Van Thiel 3}> (58)
+[16] <{Van Thiel 1}{Van Thiel 2}> (45)
+[17] <{Van Thiel 1}{Van Thiel 1}> (48)
+[18] <{Van Thiel 1}{Van Thiel 5}> (36)
+[19] <{Van Thiel 5}{Van Thiel 3}> (34)
+[20] <{Van Thiel 5}{Van Thiel 2}> (34)
+[21] <{Van Thiel 5}{Van Thiel 1}> (31)
+
+- 3-sequences
+
+[1] <{Van Thiel 3}{Van Thiel 1}{Van Thiel 3}> (35)
+[2] <{Van Thiel 2}{Van Thiel 2}{Van Thiel 2}> (36)
+[3] <{Van Thiel 1}{Van Thiel 3}{Van Thiel 3}> (30)
+
+
